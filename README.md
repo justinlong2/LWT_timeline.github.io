@@ -27,7 +27,6 @@
 ## Project Timeline (Gantt Chart)
 
 ```mermaid
-%%{init: {'theme': 'default', 'gantt': {'leftPadding': 150}}}%%
 gantt
     title Project Schedule 2026
     dateFormat YYYY-MM-DD
