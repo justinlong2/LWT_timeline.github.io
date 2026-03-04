@@ -1,3 +1,9 @@
+---
+layout: default
+title: Project Schedule
+nav_exclude: true
+---
+
 | Phase | Task | Start Date | End Date | Status |
 | :--- | :--- | :---: | :---: | :--- |
 | **Phase 1: First Expert Review** | Feedback Integration | 03-01 | 04-01 | 🟡 In Progress |
@@ -19,6 +25,9 @@
 Notes: 
 - First ER is construct map and test blue print
 - Seond ER is items and test booklet. 
+
+## Gantt Chart
+<div style="overflow-x: auto;">
 
 ```mermaid
 
