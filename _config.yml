@@ -1,16 +1,20 @@
-# Theme Settings
-remote_theme: just-the-docs/just-the-docs
-
 # Site Settings
 title: Project Dashboard
-description: Expert Review & LWT Schedule
+description: Schedule and Review Tracking
+remote_theme: just-the-docs/just-the-docs
+
+# Color Scheme (Optional: 'light' or 'dark')
+color_scheme: light
 
 # Enable Mermaid globally
 mermaid:
-  version: "10" # This ensures the JS is loaded automatically
+  version: "10"
 
-# Layout Settings
-# This makes the content area wider by default
-aux_links:
-  "View on GitHub":
-    - https://github.com/your-username/your-repo
+# Use the full width of the screen for your content
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      # This ensures your tables and charts aren't squeezed
+      full_width: true
