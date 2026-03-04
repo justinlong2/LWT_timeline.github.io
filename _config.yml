@@ -5,11 +5,12 @@ title: LWT Revised Timeline
 
 
 # Use remote_theme instead of theme
-remote_theme: pages-themes/minimal@v0.2.0 
+remote_theme: just-the-docs/just-the-docs
+#remote_theme: pages-themes/minimal@v0.2.0 
 
 # Ensure these plugins are enabled
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+#plugins:
+#  - jekyll-remote-theme
+#  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
