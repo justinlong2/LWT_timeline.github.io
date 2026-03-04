@@ -1,9 +1,3 @@
----
-layout: default
-title: Project Schedule
-nav_exclude: true
----
-
 # Project Implementation Schedule
 
 | Phase | Task | Start Date | End Date | Status |
@@ -31,8 +25,6 @@ nav_exclude: true
 ---
 
 ## Project Timeline (Gantt Chart)
-
-<div style="overflow-x: auto;">
 
 ```mermaid
 %%{init: {'theme': 'default', 'gantt': {'leftPadding': 150}}}%%
