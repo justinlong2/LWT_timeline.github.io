@@ -35,7 +35,7 @@ nav_exclude: true
 <div style="overflow-x: auto;">
 
 ```mermaid
-%%{init: {'theme': 'base', 'gantt': {'leftPadding': 150}}}%%
+%%{init: {'theme': 'default', 'gantt': {'leftPadding': 150}}}%%
 gantt
     title Project Schedule 2026
     dateFormat YYYY-MM-DD
