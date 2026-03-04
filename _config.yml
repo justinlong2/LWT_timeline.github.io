@@ -1,0 +1,15 @@
+title: LWT Revised Timeline
+#logo: /assets/img/profile_image.png
+#description: Senior Data Analyst - Instructure
+#show_downloads: true
+
+
+# Use remote_theme instead of theme
+remote_theme: pages-themes/minimal@v0.2.0 
+
+# Ensure these plugins are enabled
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
