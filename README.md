@@ -18,40 +18,21 @@
 
 Notes: 
 - First ER is construct map and test blue print
-- Seond ER is items and test booklet. 
+- Seond ER is items and test booklet.
 
-```mermaid
+- @startgantt
+title Project Schedule
+dateFormat YYYY-MM-DD
 
-%%{init: {'theme': 'dark'}}%%
-%%{init: {'gantt': {'leftPadding': 175}}}%%
+-- Phase 1: Expert Reviews --
+[Feedback Integration] lasts 31 days and is 100% completed
+[Expert Review Preparation] lasts 22 days and starts 2026-03-15
+[Expert Review Recruitment (1)] lasts 31 days and starts 2026-03-01
+[Expert Review (1)] starts 2026-04-07 and lasts 14 days
+[Revisions based on Expert Review (1)] starts 2026-04-21 and lasts 20 days
 
-gantt
-    title Project Schedule
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %d
+-- Phase 2: LWT Async Review --
+[LWT Critical Review] starts 2026-05-11 and lasts 3 days
+[LWT signs off] starts 2026-05-14 and lasts 1 day
+@endgantt
 
-    section Phase 1: Expert Reviews
-    Feedback Integration                              :active, a2, 2026-03-01, 2026-04-01
-    Expert Review Preparation                         :active, a2, 2026-03-15, 2026-04-06
-    Expert Review Recruitment (1)                     :active, a2, 2026-03-01, 2026-04-01
-    Expert Review (1)                                 :2026-04-07, 2026-04-21
-    Revisions based on Expert Review (1)              :2026-04-21, 2026-05-11
-
-    section Phase 2: LWT Async Review
-    LWT Critical Review                               :2026-05-11, 2026-05-14
-    LWT signs off                                     :2026-05-14, 2026-05-15
-
-    section Phase 3: LWT Revision
-    Instructure Revises Testing Materials             :2026-05-15, 2026-06-15
-    LWT signs off                                     :2026-06-15, 2026-06-17
-    Expert Review Doc Finalized and Shared            :2026-06-15, 2026-06-17
-
-
-    section Phase 4: Second Expert Review
-    Expert Review (2)                                 :2026-06-18, 2026-06-30
-    Revisions based on Expert Review (2)              :2026-07-01, 2026-07-30
-    LWT signs off                                     :2026-07-30, 2026-07-31
-
-    section Phase 5: Finalization 
-    LWT Production                                     :2026-07-01, 2026-07-31
-    LWT Pouring Stage                                  :2026-08-01, 2026-09-01
