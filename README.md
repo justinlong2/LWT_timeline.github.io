@@ -28,30 +28,25 @@ Notes:
 %%{init: {'theme': 'dark', 'gantt': {'leftPadding': 175}}}%%
 gantt
     title Project Schedule
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %d
-
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
     section Phase 1: Expert Reviews
-    Feedback Integration                  :active, p1a1, 2026-03-01, 2026-04-01
-    Expert Review Preparation             :active, p1a2, 2026-03-15, 2026-04-06
-    Expert Review Recruitment (1)         :active, p1a3, 2026-03-01, 2026-04-01
-    Expert Review (1)                     :2026-04-07, 2026-04-21
-    Revisions based on Expert Review (1)  :2026-04-21, 2026-05-11
-
+    Feedback Integration :active, p1a1, 2026-03-01, 2026-04-01
+    Expert Review Preparation :active, p1a2, 2026-03-15, 2026-04-06
+    Expert Review Recruitment (1) :active, p1a3, 2026-03-01, 2026-04-01
+    Expert Review (1) :2026-04-07, 2026-04-21
+    Revisions based on Expert Review (1) :2026-04-21, 2026-05-11
     section Phase 2: LWT Async Review
-    LWT Critical Review                   :2026-05-11, 2026-05-14
-    LWT signs off                         :2026-05-14, 2026-05-15
-
+    LWT Critical Review :2026-05-11, 2026-05-14
+    LWT signs off :2026-05-14, 2026-05-15
     section Phase 3: LWT Revision
     Instructure Revises Testing Materials :2026-05-15, 2026-06-15
-    LWT signs off                         :2026-06-15, 2026-06-17
-    Expert Review Doc Finalized & Shared  :2026-06-15, 2026-06-17
-
+    LWT signs off :2026-06-15, 2026-06-17
+    Expert Review Doc Finalized & Shared :2026-06-15, 2026-06-17
     section Phase 4: Second Expert Review
-    Expert Review (2)                     :2026-06-18, 2026-06-30
-    Revisions based on Expert Review (2)  :2026-07-01, 2026-07-30
-    LWT signs off                         :2026-07-30, 2026-07-31
-
-    section Phase 5: Finalization 
-    LWT Production                        :2026-07-01, 2026-07-31
-    LWT Pouring Stage                     :2026-08-01, 2026-09-01
+    Expert Review (2) :2026-06-18, 2026-06-30
+    Revisions based on Expert Review (2) :2026-07-01, 2026-07-30
+    LWT signs off :2026-07-30, 2026-07-31
+    section Phase 5: Finalization
+    LWT Production :2026-07-01, 2026-07-31
+    LWT Pouring Stage :2026-08-01, 2026-09-01
