@@ -27,6 +27,7 @@
 ## Project Timeline (Gantt Chart)
 
 ```mermaid
+
 gantt
     title Project Schedule
     dateFormat  YYYY-MM-DD
