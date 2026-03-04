@@ -1,9 +1,3 @@
----
-layout: default
-title: Project Schedule
-nav_exclude: true
----
-
 | Phase | Task | Start Date | End Date | Status |
 | :--- | :--- | :---: | :---: | :--- |
 | **Phase 1: First Expert Review** | Feedback Integration | 03-01 | 04-01 | 🟡 In Progress |
@@ -31,7 +25,7 @@ Notes:
 
 ```mermaid
 
-%%{init: {'theme': 'light', 'gantt': {'leftPadding': 175}}}%%
+%%{init: {'theme': 'dark', 'gantt': {'leftPadding': 175}}}%%
 gantt
     title Project Schedule
     dateFormat  YYYY-MM-DD
