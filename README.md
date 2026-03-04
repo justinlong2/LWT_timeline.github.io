@@ -16,17 +16,9 @@
 | **Phase 5: Finalization** | LWT Production | 07-01 | 07-31 | ⚪ Pending |
 | | LWT Pouring Stage | 08-01 | 09-01 | ⚪ Pending |
 
-Ideas: 
+Notes: 
 - First ER is construct map and test blue print
 - Seond ER is items and test booklet. 
-
-Issues: 
-- Can LWT generate pictures if items are still being revised? 
-- What is LWT doing in Production and Pouring stages? 
-
-Next Steps: Monday
-- Share recording with LWT. 
-- Share new timeline with LWT
 
 ```mermaid
 
