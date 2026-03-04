@@ -28,31 +28,32 @@
 
 ```mermaid
 gantt
-    title Project Schedule 2026
-    dateFormat YYYY-MM-DD
-    axisFormat %b %d
+    title Project Schedule
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
 
     section Phase 1: Expert Reviews
-    Feedback Integration                  :active, p1, 2026-03-01, 2026-04-01
-    Expert Review Preparation             :active, p2, 2026-03-15, 2026-04-06
-    Expert Review Recruitment (1)         :active, p3, 2026-03-01, 2026-04-01
-    Expert Review (1)                     :p4, 2026-04-07, 2026-04-21
-    Revisions (1)                         :p5, 2026-04-21, 2026-05-11
+    Feedback Integration                              :active, a2, 2026-03-01, 2026-04-01
+    Expert Review Preparation                         :active, a2, 2026-03-15, 2026-04-06
+    Expert Review Recruitment (1)                     :active, a2, 2026-03-01, 2026-04-01
+    Expert Review (1)                                 :2026-04-07, 2026-04-21
+    Revisions based on Expert Review (1)              :2026-04-21, 2026-05-11
 
     section Phase 2: LWT Async Review
-    LWT Critical Review                   :p6, 2026-05-11, 2026-05-14
-    LWT signs off                         :p7, 2026-05-14, 2026-05-15
+    LWT Critical Review                               :2026-05-11, 2026-05-14
+    LWT signs off                                     :2026-05-14, 2026-05-15
 
     section Phase 3: LWT Revision
-    Instructure Revises Materials         :p8, 2026-05-15, 2026-06-15
-    LWT signs off                         :p9, 2026-06-15, 2026-06-17
-    ER Doc Finalized                      :p10, 2026-06-15, 2026-06-17
+    Instructure Revises Testing Materials             :2026-05-15, 2026-06-15
+    LWT signs off                                     :2026-06-15, 2026-06-17
+    Expert Review Doc Finalized and Shared            :2026-06-15, 2026-06-17
+
 
     section Phase 4: Second Expert Review
-    Expert Review (2)                     :p11, 2026-06-18, 2026-06-30
-    Revisions (2)                         :p12, 2026-07-01, 2026-07-30
-    LWT signs off                         :p13, 2026-07-30, 2026-07-31
+    Expert Review (2)                                 :2026-06-18, 2026-06-30
+    Revisions based on Expert Review (2)              :2026-07-01, 2026-07-30
+    LWT signs off                                     :2026-07-30, 2026-07-31
 
-    section Phase 5: Finalization
-    LWT Production                        :p14, 2026-07-01, 2026-07-31
-    LWT Pouring Stage                     :p15, 2026-08-01, 2026-09-01
+    section Phase 5: Finalization 
+    LWT Production                                     :2026-07-01, 2026-07-31
+    LWT Pouring Stage                                  :2026-08-01, 2026-09-01
