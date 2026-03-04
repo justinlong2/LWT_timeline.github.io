@@ -1,20 +1,20 @@
 # Site Settings
-title: Project Dashboard
-description: Schedule and Review Tracking
+title: LWT Timeline
+description: Project Schedule and Review Tracking
 remote_theme: just-the-docs/just-the-docs
 
-# Color Scheme (Optional: 'light' or 'dark')
-color_scheme: light
+# Since your repo is LWT_timeline.github.io, leave these as follows:
+url: "https://LWT_timeline.github.io"
+baseurl: ""
 
-# Enable Mermaid globally
+# Enable Mermaid
 mermaid:
   version: "10"
 
-# Use the full width of the screen for your content
+# Set full width for the Gantt Chart
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-      # This ensures your tables and charts aren't squeezed
       full_width: true
